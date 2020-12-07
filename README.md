@@ -15,7 +15,7 @@ const splittedTitle = new SplitText("#loading-title", {
 ## Options
 
 Option | Default Value
-- | -
+-------| -------------
 types | ["lines", "words", "chars"]
 lineClass | hella-line
 wordClass | hella-word
