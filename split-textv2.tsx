@@ -48,7 +48,7 @@ class SplitText implements IOptions {
       throw new Error(`Target not found!\n${targets}`);
     }
     this.options = options;
-    document.addEventListener("DOMContentLoaded", (e) => this.init());
+    this.init();
   }
 
   get types() {
